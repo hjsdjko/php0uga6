@@ -1,0 +1,91 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/huodongfenlei/list",
+    "pages/huodongfenlei/add-or-update",
+    "pages/huodongfenlei/detail",
+    "pages/shetuanhuodong/list",
+    "pages/shetuanhuodong/add-or-update",
+    "pages/shetuanhuodong/detail",
+    "pages/baomingxinxi/list",
+    "pages/baomingxinxi/add-or-update",
+    "pages/baomingxinxi/detail",
+    "pages/qiandaodengji/list",
+    "pages/qiandaodengji/add-or-update",
+    "pages/qiandaodengji/detail",
+    "pages/toupiaoxiangmu/list",
+    "pages/toupiaoxiangmu/add-or-update",
+    "pages/toupiaoxiangmu/detail",
+    "pages/toupiaoxinxi/list",
+    "pages/toupiaoxinxi/add-or-update",
+    "pages/toupiaoxinxi/detail",
+    "pages/jiangliqingkuang/list",
+    "pages/jiangliqingkuang/add-or-update",
+    "pages/jiangliqingkuang/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/discussshetuanhuodong/list",
+    "pages/discussshetuanhuodong/add-or-update",
+    "pages/discussshetuanhuodong/detail",
+    "pages/discusstoupiaoxiangmu/list",
+    "pages/discusstoupiaoxiangmu/add-or-update",
+    "pages/discusstoupiaoxiangmu/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "基于微信小程序的社团活动助手",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1798F2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shetuanhuodong/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "社团活动"
+      },
+      {
+        "pagePath": "pages/toupiaoxiangmu/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "投票项目"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
